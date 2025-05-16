@@ -1,6 +1,13 @@
 # MarianMT English-Chinese Translation - Fine-tuning Pipeline
 
 This project fine-tunes the [Helsinki-NLP/opus-mt-en-zh](https://huggingface.co/Helsinki-NLP/opus-mt-en-zh) MarianMT model on a subset of the `news-commentary-v14` English-Chinese parallel dataset. The pipeline is fully implemented in `train_pipeline.py` and evaluated using BLEU score.
+## 📎 Kaggle Notebook Reference
+
+The original online implementation can be found at:
+
+👉 [Kaggle Notebook - Xuanfan Lin](https://www.kaggle.com/code/xuanfanlin/nlp-task)
+
+---
 
 ## 📁 Project Structure
 
@@ -90,13 +97,7 @@ This will:
 
 ---
 
-## 📎 Kaggle Notebook Reference
 
-The original online implementation can be found at:
-
-👉 [Kaggle Notebook - Xuanfan Lin](https://www.kaggle.com/code/xuanfanlin/nlp-task)
-
----
 
 ## 📌 Notes
 
