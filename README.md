@@ -8,15 +8,15 @@ This project fine-tunes the [Helsinki-NLP/opus-mt-en-zh](https://huggingface.co/
 DLNLP_assignment_25-21008931/
 │
 ├── Datasets/
-│   └── news-commentary-v14.en-zh.tsv        # Parallel English-Chinese dataset (TSV format)
+│   └── news-commentary-v14.en-zh.tsv        # Parallel 
 │
 ├── result/
-│   ├── final_model/                         # Saved model, tokenizer, generation config
+│   ├── final_model/        
 │   ├── training_loss.png                    # Loss per epoch plot
-│   ├── bleu_score.png                       # BLEU score per epoch plot
+│   ├── bleu_score.png                      # BLEU score per epoch plot
 │   └── sentence_length_distribution.png     # EDA visualization
 │
-├── train_pipeline.py                        # Full training and evaluation pipeline
+├── train_pipeline.py                    # Full training and evaluation pipeline
 └── README.md                                # Project documentation
 ```
 
@@ -51,7 +51,8 @@ pip uninstall -y peft
 Download the dataset manually and place it into the `Datasets/` folder:
 
 - File name: `news-commentary-v14.en-zh.tsv`
-- Source: [statmt.org/news-commentary](https://data.statmt.org/news-commentary/v14/training/news-commentary-v14.en-zh.tsv)
+- Source: [statmt.org/news-commentary](https://data.statmt.org/news-commentary/v14/training/)
+
 
 ### 4. Run training pipeline
 
@@ -104,9 +105,3 @@ The original online implementation can be found at:
 - Tokenization uses `max_length=128`, `num_beams=5` for generation
 
 ---
-
-## 📧 Contact
-
-Author: Xuanfan Lin  
-Student Number: 21008931  
-Module: ELEC0141 - Deep Learning for NLP
